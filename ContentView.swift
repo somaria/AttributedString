@@ -18,22 +18,24 @@ struct ContentView: View {
                Text("My name is")
                 if toggleState {
                     Text(makeAttributedString(text: "John"))
-                      .frame(width: CGFloat("Michael".count) * 11)
+                      .frame(width: CGFloat("MichaelMike".count) * 11)
                         .background(Color.gray.opacity(0.1))
                         .border(.green)
                         .cornerRadius(4)
                         
                 } else {
-                    Text(makeAttributedString(text: "Michael"))
-                      .frame(width: CGFloat("Michael".count) * 11)
+                    Text(makeAttributedString(text: "MichaelMike"))
+                      .frame(width: CGFloat("MichaelMike".count) * 11)
                         .background(Color.gray.opacity(0.1))
                         .border(.green)
                         .cornerRadius(4)
                        
                 }
-                Text("for now.")
-               Text("This is true")
-               Text("for now.")
+                Text("This")
+               Text("is")
+               Text("true")
+               Text("for")
+               Text("now.")
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             
